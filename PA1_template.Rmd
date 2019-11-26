@@ -98,3 +98,5 @@ colnames(stepsPerInterval) <- c("interval", "day", "avg")
 xyplot(avg ~ interval | day, stepsPerInterval, type = "l", layout = c(1, 2), 
     xlab = "Interval", ylab = "Avg Steps")
 ```
+
+From this plot we can see that weekends show more consistent activity throughout the day, whereas on weekdays there is a distinct peak in average steps during mornings.

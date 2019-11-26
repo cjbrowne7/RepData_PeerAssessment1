@@ -162,3 +162,5 @@ xyplot(avg ~ interval | day, stepsPerInterval, type = "l", layout = c(1, 2),
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+
+From this plot we can see that weekends show more consistent activity throughout the day, whereas on weekdays there is a distinct peak in average steps during mornings.
